@@ -1,0 +1,55 @@
+// 2. Set your own initial variables
+// Update blue
+$blue: #72d0eb;
+  // Add pink and its invert
+$pink: #ffb3b3;
+$pink-invert: #fff;
+  // Add a serif family
+$family-serif: "Merriweather", "Georgia", serif;
+
+  // 3. Set the derived variables
+  // Use the new pink as the primary color
+$primary: #2196F3;
+$blue: #1976D2;
+$primary-invert: #448AFF;
+  // Use the existing orange as the danger color
+$danger: #fff;
+  // Use the new serif family
+$family-primary: $family-serif;
+
+$modal-background-background-color: white;
+  // 4. Import the rest of Bulma
+@import "~bulma";
+
+
+h1,h2,h3,h4,p{
+  color: #424242;
+}
+h1{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+}
+
+h2{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+
+h3{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+}
+
+h4{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+}
+
+p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+}
+
+a{
+  font-family: 'Work Sans', sans-serif;
+}
