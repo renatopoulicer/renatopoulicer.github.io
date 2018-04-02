@@ -1,0 +1,177 @@
+<app-navbar></app-navbar>
+
+<!--hero section-->
+<section class="hero intro">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1">
+        Renato Poulicer
+      </h1>
+      <h2 class="subtitle is-3">
+        Interaction Designer
+        &
+        Front-end developer
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!--skills about me -->
+<section class="section skills">
+  <div class="container">
+    <div class="columns">
+
+        <div class="column is-4 has-text-centered">
+          <span class="icon is-large ">
+            <i class="fa fa-user is-large" aria-hidden="true"></i>
+          </span>
+          <div class="content">
+            <h3 class="title"> Design de Interação</h3>
+            <p> Quando projeto um novo artefato digital, penso infimamente em como as pessoas o utilizarão, considerando seus objetivos e suas emoções</p>
+          </div>
+        </div>
+
+        <div class="column is-4 has-text-centered">
+          <span class="icon is-large ">
+            <i class="fa fa-user is-large" aria-hidden="true"></i>
+          </span>
+          <div class="content">
+            <h3 class="title"> Pesquisa com usuário</h3>
+            <p> Saber e entender as necessidades dos usuários está em minha filosofia, tento empregá-las no meu processo de design:</p>
+          </div>
+        </div>
+        <div class="column is-4 has-text-centered">
+            <span class="icon is-large ">
+              <i class="fa fa-code " aria-hidden="true"></i>
+            </span>
+          <div class="content">
+           <h3 class="title">Front-end e Prototipação</h3>
+           <p> Sou um experimentador nato, desde ferramentas de prototipação a novos padrões e tecnologias web e mobile.</p>
+          </div>
+          </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Projects-->
+<!--<section class="section ">
+  <div class = "container projects-area">
+    <h1 class = "title has-text-centered">Projects</h1>
+      <div class = "columns">
+        <div class="column is-10 box-test">
+            <p class="title">Acalmar</p>
+            <div class="columns">
+              <div class="column is-4 project">
+                <figure class="image is-16by9">
+                  <img src="http://bulma.io/images/placeholders/640x480.png">
+                </figure>
+              </div>
+              <div class="column is-8">
+                <p>An app to help people with anxiety</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    <div class="columns project">
+      <div class="column is-10 box-test">
+          <p class="title">Organização de eventos e IoT</p>
+          <div class="columns">
+            <div class="column is-4">
+              <figure class="image is-16by9">
+                <img src="http://bulma.io/images/placeholders/640x480.png">
+              </figure>
+            </div>
+            <div class="column is-8">
+              <p>An app to help people with anxiety</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="columns project">
+      <div class="column is-10 box-test">
+          <p class="title">Splitwise usability analysis</p>
+          <div class="columns">
+            <div class="column is-4">
+              <figure class="image is-16by9">
+                <img src="http://bulma.io/images/placeholders/640x480.png">
+              </figure>
+            </div>
+            <div class="column is-8">
+              <p>An app to help people with anxiety</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+<section class="section projects">
+  <div class="container">
+    <h1 class = "title has-text-centered">Portfólio</h1>
+    <div class="columns">
+      <div class="column box-test" (click)="goToProject('acalmar')">
+        <figure class="image is-4by3">
+          <img src="/assets/acalmar.png">
+        </figure>
+        <h3> Pesquisa com usuário e prototipação</h3>
+        <span class="icon  ">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+            </span>
+      </div>
+      <div class="column box-test" (click)="goToProject('iot')">
+        <figure class="image is-4by3">
+          <img src="/assets/iot.png">
+        </figure>
+        <h3>Design participativo</h3>
+        <span class="icon  ">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+            </span>
+      </div>
+
+    </div>
+    <div class="columns">
+        <div class="column box-test" (click)="goToProject('splitwise')">
+            <figure class="image is-4by3">
+              <img src="/assets/splitwise.png">
+            </figure>
+            <h3>Análise de usabilidade</h3>
+            <span class="icon  ">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="column box-test" (click)="goToProject('xclarity')">
+          <figure class="image is-4by3 xclarity">
+            <img src="/assets/xclarity.png">
+          </figure>
+          <h3>Prototipação e desenvolvimento front-end</h3>
+          <span class="icon">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+          </span>
+        </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="button is-medium" href="https://medium.com/@renatopoulicer">
+        <span class="icon is-white is-medium ">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </span>
+      </a>
+      <a class="button is-medium" href="https://www.linkedin.com/in/renatopoulicer/">
+        <span class="icon is-medium ">
+               <i class="fa fa-medium" aria-hidden="true"></i>
+        </span>
+      </a>
+      <a class="button is-medium" href="https://www.instagram.com/rpoulicer/">
+        <span class="icon is-medium ">
+           <i class="fa fa-instagram" aria-hidden="true"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+</footer>
+
