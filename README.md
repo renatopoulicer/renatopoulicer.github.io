@@ -26,3 +26,17 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+to deploy on gh-pages
+
+
+At First Install angular-cli ghpages
+
+npm install -g angular-cli-ghpages
+After installing next step is linking your repository. Run this command
+
+ng build --prod --base-href "https://<user-name>.github.io/<repo>/" 
+If You See Error Then ommit --prod and Run This Command
+
+ng build --base-href "https://<user-name>.github.io/<repo>/" 
+You can now see a dist folder in your angular 2 app directory.

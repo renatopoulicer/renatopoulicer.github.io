@@ -1,24 +1,46 @@
-<nav class="navbar is-transparent">
-  <div class="navbar-brand">
-    <a class="navbar-item " href="http://bulma.io">
-    Renato Poulicer
-    </a>
 
-  </div>
-
-  <div id="navMenuTransparentExample" class="navbar-menu">
-    <div class="navbar-start">
-
-    </div>
-
-    <div class="navbar-end">
-
-     <!-- <a class="navbar-item " href="#">
-        <span class="bd-emoji">About me</span>
+<nav class="nav">
+  <div class="container">
+    <div class="nav-left">
+      <a class="nav-item is-brand" href="#">
+        Renato Poulicer
       </a>
-      <a class="navbar-item " href="#">
-        <span class="bd-emoji">Projects</span>
-      </a>-->
+    </div>
+    <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div id="nav-menu" class="nav-right nav-menu">
+      <span class="nav-item">
+          <a class="button is-small" href="https://www.behance.net/rpoulicer">
+            <span class="icon is-small ">
+               <i class="fa fa-behance" aria-hidden="true"></i>
+            </span>
+          </a>
+      </span>
+      <span class="nav-item">
+      <a class="button is-small" href="https://dribbble.com/rpoulicer">
+        <span class="icon is-small ">
+          <i class="fa fa-dribbble" aria-hidden="true"></i>
+        </span>
+      </a>
+      </span>
+      <span class="nav-item">
+      <a class="button is-small" href="https://www.linkedin.com/in/renatopoulicer/" >
+        <span class="icon is-white is-small ">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </span>
+      </a>
+      </span>
+      <span class="nav-item">
+      <a class="button is-small" href="https://medium.com/@renatopoulicer">
+        <span class="icon is-small ">
+               <i class="fa fa-medium" aria-hidden="true"></i>
+        </span>
+      </a>
+      </span>
+
     </div>
   </div>
 </nav>

@@ -1,6 +1,10 @@
-.navbar-brand{
-  a:first-child{
+.is-brand{
     font-family: 'Lobster', cursive;
     font-size : 4vh;
+}
+.nav-menu{
+
+  a{
+    border:none;
   }
 }
