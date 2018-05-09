@@ -1,10 +1,23 @@
+.container{
+  width: 80%;
+}
 .is-brand{
-    font-family: 'Lobster', cursive;
-    font-size : 4vh;
+  font-family: 'Montserrat',sans-serif;
+  font-size : 4vh;
 }
 .nav-menu{
 
   a{
     border:none;
+    font-size:16px;
   }
+  :hover{
+  font-weight: 600;
+  }
+
+}
+
+.active-navbar{
+  font-weight: 800;
+  border-bottom: solid 2px #E37252;
 }

@@ -1,0 +1,39 @@
+.container{
+  width:80%;
+  align-items: center;
+}
+
+.intro {
+  position: relative;
+  z-index:1;
+
+  a {
+    border: none;
+    background: transparent;
+  }
+  h6{
+    margin-top:1.2em;
+    margin-bottom:0.6em!important;
+  }
+  h5{
+    margin-bottom:0.6em!important;
+  }
+.social-icons{
+  margin-top: 1em;
+}
+}
+.intro::after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("/assets/ux-photo.jpg");
+  width: 100vw;
+  height: 100vh;
+  opacity : 0.09;
+  z-index: -1;
+
+
+}
+
